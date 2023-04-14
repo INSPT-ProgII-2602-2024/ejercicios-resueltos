@@ -51,7 +51,7 @@ public class CuentaBancaria {
     
     public void getUltimosCBU(int cuantos){
         String ultimos = CBU.substring(CBU.length() - cuantos);
-        System.out.println("Últimos 3 dígitos del CBU: " + ultimos);
+        System.out.println("Últimos " + cuantos + " dígitos del CBU: " + ultimos);
     }
     
     //agrego un método que muestre los datos ingresados en prog ppal.
