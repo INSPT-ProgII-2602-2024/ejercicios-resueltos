@@ -49,24 +49,21 @@ public class Fecha {
     }
 
     public void setAnio(int anio) {
-        this.anio = anio;                
+        if (anio > 0) {
+            this.anio = anio;     
+        }              
     }
     
     //constructor
     public Fecha(int dia, int mes, int anio) {
         setDia(dia);
-        //this.dia = setDia(dia);
         setMes(mes);
-        //this.mes = mes;
         setAnio(anio);
-        //this.anio = anio;
         //elegí consultar a los setters, en lugar de usar los 'this' por defecto.
         //Es buena práctica, para poder hacer uso de las validaciones que traigan.
     }
     
-    public boolean esNatal(){
-        //getDia();
-        //getMes();
+    public boolean esNavidad (){
         return getDia()==25 && getMes()==12;
     }
     

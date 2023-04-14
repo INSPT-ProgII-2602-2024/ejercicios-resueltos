@@ -24,9 +24,9 @@ public class Principal {
         System.out.println(date2);
         System.out.println(date3);
         
-        System.out.println("¿Es Navidad?: " + date2.esNatal()); //1
+        System.out.println("¿Es Navidad?: " + date2.esNavidad()); //1
         //1 es equivalente a 2.1+2.2
-        Boolean natal = date2.esNatal(); //2.1
+        Boolean natal = date2.esNavidad(); //2.1
         System.out.println("¿Es Navidad?: " + natal); //2.2
         
         date3.sumarMes();
