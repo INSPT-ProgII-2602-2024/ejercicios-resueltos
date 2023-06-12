@@ -1,4 +1,4 @@
-package resueltos.guia3.ejercicio11;
+package resueltos.guia3.ejercicio9;
 
 /**
 * Código generado por la app UXFtoJava by Charly Cimino
