@@ -2,6 +2,7 @@
 package resueltos.guia1.ejercicio1;
 
 import java.time.LocalDate;
+import java.util.Scanner;
 
 /**
  *
@@ -20,6 +21,10 @@ public class Persona {
         setNombre(nombre);
         setApellido(apellido);
         setAnioNacimiento(anioNacimiento);
+    }
+    
+    public Persona(int anioNacimiento) {
+        this("", "", anioNacimiento);
     }
         
     public String nombreCompleto() {
